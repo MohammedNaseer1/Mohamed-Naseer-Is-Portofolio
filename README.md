@@ -18,3 +18,4 @@ A single-page portfolio: dark, data-forward, no build tools needed.
 Push this folder to a GitHub repo, then in the repo settings enable **GitHub Pages**
 (branch: `main`, folder: `/root`). Your site will be live at
 `https://<username>.github.io/<repo-name>/`.
+ 
