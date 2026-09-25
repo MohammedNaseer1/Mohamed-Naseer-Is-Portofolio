@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Naseer — Data Analyst | Data Scientist | ML Engineer</title>
+<meta name="description" content="Portfolio of Mohamed Naseer — data analysis, SQL and machine learning projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topnav">
+  <a href="#top" class="brand">MN<span>.</span></a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Work</a>
+    <a href="#education">Education</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="#contact" class="nav-cta">Get in touch</a>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <div class="profile-intro">
+          <img src="assets/profile.jpg" alt="Mohamed Naseer" class="profile-photo">
+          <div>
+            <p class="hero-kicker">Data Analyst&nbsp;|&nbsp;Data Scientist&nbsp;|&nbsp;ML Engineer</p>
+            <h1>Mohamed Naseer</h1>
+            <p class="hero-location">Alexandria, Egypt</p>
+          </div>
+        </div>
+
+        <p class="hero-lead">
+          Communication Engineering student turning raw data into insights —
+          building my foundation in Python, SQL and machine learning through
+          hands-on projects and continuous learning.
+        </p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">See the work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+        <dl class="hero-stats">
+          <div><dt>4th</dt><dd>year, Communication Engineering</dd></div>
+          <div><dt>6</dt><dd>courses completed so far</dd></div>
+          <div><dt>DEPI</dt><dd>Data Science track, in progress</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <canvas id="sparkline" width="480" height="360"></canvas>
+        <div class="hero-visual-caption">
+          <span>exploring_country.ipynb</span>
+          <span class="dot dot-live">learning in public</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <h2>About me</h2>
+    </div>
+    <div class="about-body">
+      <p>I'm Mohamed Naser, a Communication Engineering student with a strong interest in Data Science and Artificial Intelligence. I enjoy working with data, exploring patterns, and turning raw information into meaningful insights that can support better decision-making.</p>
+      <p>I have a foundation in Python, SQL, and data science concepts, and I'm continuously developing my skills through coursework, hands-on projects, and practical learning. My engineering background helps me approach problems analytically, while my curiosity drives me to explore new technologies and improve my technical abilities.</p>
+      <p>I'm currently focused on expanding my knowledge in data analysis, machine learning, and AI, while building projects that help me gain real-world experience and grow as a data science professional.</p>
+      <p>My goal is to use data to solve problems, discover insights, and create practical solutions through continuous learning and experimentation.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS — puzzle pieces that complete each other -->
+  <section class="skills" id="skills">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <p>Pieces of one puzzle — each one completes the picture of how I work with data.</p>
+    </div>
+    <div class="puzzle-row">
+      <span class="puzzle-piece">Python</span>
+      <span class="puzzle-piece">Pandas</span>
+      <span class="puzzle-piece">NumPy</span>
+      <span class="puzzle-piece">SQL</span>
+      <span class="puzzle-piece">MySQL</span>
+      <span class="puzzle-piece">Web Scraping</span>
+      <span class="puzzle-piece">Data Collection</span>
+      <span class="puzzle-piece">Data Analysis</span>
+      <span class="puzzle-piece">Excel</span>
+      <span class="puzzle-piece">Data Cleaning</span>
+      <span class="puzzle-piece">Data Visualization</span>
+      <span class="puzzle-piece">Machine Learning</span>
+    </div>
+  </section>
+
+  <!-- PROJECT -->
+  <section class="work" id="work">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <p>The first project I'm putting out there — more are on the way as I keep building.</p>
+    </div>
+
+    <article class="project project-featured">
+      <div class="project-body">
+        <span class="project-tag">SQL · Data Analysis</span>
+        <h3>Exploring Country — World Development Indicators</h3>
+        <p>
+          A data analysis project that ingests World Development Indicators from
+          CSV files into a structured SQLite database to run SQL queries and
+          analyze global economic and demographic metrics.
+        </p>
+        <p class="project-tools"><strong>Tools:</strong> Python, pandas, sqlite3</p>
+        <ul class="project-metrics">
+          <li><strong>2 tables</strong><span>Country &amp; Indicators built in wdi.sqlite</span></li>
+          <li><strong>10 years</strong><span>analysis window, start_year to max_year</span></li>
+          <li><strong>2014</strong><span>GDP-per-capita leaderboard by country</span></li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/MohammedNaseer1/Exploring-country-Task/blob/master/analysis.ipynb" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+      </div>
+      <div class="project-figure">
+        <img src="assets/project-exploring-country-2.jpg" alt="Exploring Country notebook — GDP indicators output" class="project-screenshot">
+        <img src="assets/project-exploring-country-1.jpg" alt="Exploring Country notebook — country measures output" class="project-screenshot project-screenshot-secondary">
+      </div>
+    </article>
+  </section>
+
+  <!-- EDUCATION & TRAINING -->
+  <section class="experience" id="education">
+    <div class="section-head">
+      <h2>Education &amp; training</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">In progress</div>
+        <div class="timeline-body">
+          <h3>Data Science Training, DEPI</h3>
+          <p>6-month Digital Egypt Pioneers Initiative track, currently underway.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">4th-year student</div>
+        <div class="timeline-body">
+          <h3>B.Sc. Communication Engineering</h3>
+          <p>Elmadina Higher Institute for Engineering and Technology.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section class="courses" id="courses">
+    <div class="section-head">
+      <h2>Courses</h2>
+    </div>
+    <div class="course-grid">
+      <div class="course-card"><h3>ICDL</h3><span>Completed</span></div>
+      <div class="course-card"><h3>Data Science</h3><span>DEPI — in progress</span></div>
+      <div class="course-card"><h3>AI for You</h3><span>Oracle</span></div>
+      <div class="course-card"><h3>Excel</h3><span>Self-taught</span></div>
+      <div class="course-card"><h3>AI</h3><span>GDG</span></div>
+      <div class="course-card"><h3>SQL</h3><span>Self-taught</span></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <h2>Let's turn your data into powerful insights, smarter decisions, and real results.</h2>
+      <p>Get in touch with me today.</p>
+      <div class="contact-links">
+        <a href="mailto:mohamednaser200566@gmail.com">mohamednaser200566@gmail.com</a>
+        <a href="https://github.com/MohammedNaseer1" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/mohamed-naser-741355415" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="closing">
+    <p>Thanks for stopping by.<br>Let's create something impactful with data. 📊</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© 2026 Mohamed Naseer</span>
+  <span>Built with HTML, CSS &amp; a little JS.</span>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
